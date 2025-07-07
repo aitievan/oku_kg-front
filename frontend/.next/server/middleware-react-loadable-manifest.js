@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"components\\\\Navbar.jsx -> ./CatalogMenu\":{\"id\":\"components\\\\Navbar.jsx -> ./CatalogMenu\",\"files\":[\"static/chunks/_app-pages-browser_src_components_CatalogMenu_jsx.js\"]}}"

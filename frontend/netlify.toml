@@ -1,0 +1,14 @@
+[build]
+  base = "frontend"
+  command = "npm install && npm run build" 
+  publish = "/.next"
+  functions = "frontend/netlify/functions"
+
+[[redirects]]
+  from = "/books/:bookID"
+  to = "/books/:bookID"
+  status = 200
+  force = true
+
+[build.processing.html]
+  caseSensitivePathPrefix = true
